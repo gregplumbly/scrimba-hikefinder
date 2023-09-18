@@ -43,6 +43,21 @@ header {
     color: #000000;
 }
 
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 0.2fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 10px;
+}
+
+/* .item1 {
+    order: 1;
+}
+.item2 {
+    order: 2;
+} */
+
 .hero {
     display: flex;
     background-image: linear-gradient(
@@ -120,15 +135,33 @@ header {
         /* padding: 20px; */
     }
 
-    /* Your other styles for mobile devices go here */
-}
+    .parent {
+        display: flex;
+        flex-direction: column;
 
-.parent {
-    display: grid;
-    grid-template-columns: 1fr 0.2fr 1fr;
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 10px;
+        grid-row-gap: 10px;
+        /* border: solid 1px red; */
+    }
+
+    .item1 {
+        order: 2;
+        /* background-color: red; */
+    }
+    .item2 {
+        order: 1;
+        /* background-color: blue; */
+    }
+    .item3 {
+        order: 3;
+        /* background-color: green; */
+        /* border: solid 1px red; */
+    }
+    .item4 {
+        order: 4;
+        /* background-color: yellow; */
+    }
+
+    /* Your other styles for mobile devices go here */
 }
 
 .div1 {
