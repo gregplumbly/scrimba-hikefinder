@@ -20,26 +20,26 @@ body {
 }
 
 .logo {
-    width: 165px;
-    height: 30px;
+  width: 165px;
+  height: 30px;
 }
 
 header {
-    width: 100%;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    padding: 0 20px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
 }
 
 .nav {
-    display: flex;
-    margin-left: auto;
-    gap: 20px;
+  display: flex;
+  margin-left: auto;
+  gap: 20px;
 }
 
 .nav-item {
-        color: #000000;
+  color: #000000;
 }
 
 .hero {
@@ -200,4 +200,20 @@ p {
 
 .summary {
   color: #6f6f6f;
+}
+
+.resources {
+  display: flex;
+}
+
+.resources-box {
+  flex: 1;
+  border: 1px solid #000; /* Adding border to visualize the boxes */
+  box-sizing: border-box; /* To include border and padding in the element's total width and height */
+  padding: 60px; /* Adding some padding */
+}
+
+footer {
+  height: 60px;
+  background-color: black;
 }
