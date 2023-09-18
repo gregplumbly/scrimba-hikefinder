@@ -103,67 +103,6 @@ header {
     cursor: pointer;
 }
 
-@media (max-width: 576px) {
-    /* body {
-        background-color: lightblue;
-    } */
-
-    .hero {
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        background-image: linear-gradient(
-                to right,
-                rgba(0, 0, 0, 0.6) 100%,
-                transparent 10%
-            ),
-            url("./images/hero.jpg");
-
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        /* border: solid 1px white; */
-    }
-
-    .hero-left {
-        width: 100%;
-        padding: 20px;
-    }
-
-    .hero-search {
-        width: 100%;
-        /* padding: 20px; */
-    }
-
-    .parent {
-        display: flex;
-        flex-direction: column;
-
-        grid-row-gap: 10px;
-        /* border: solid 1px red; */
-    }
-
-    .item1 {
-        order: 2;
-        /* background-color: red; */
-    }
-    .item2 {
-        order: 1;
-        /* background-color: blue; */
-    }
-    .item3 {
-        order: 3;
-        /* background-color: green; */
-        /* border: solid 1px red; */
-    }
-    .item4 {
-        order: 4;
-        /* background-color: yellow; */
-    }
-
-    /* Your other styles for mobile devices go here */
-}
-
 .div1 {
     grid-area: 1 / 1 / 2 / 3;
     background-image: url(./images/floyen.jpg);
@@ -337,4 +276,69 @@ footer {
     font-style: normal;
     font-weight: 600;
     line-height: 150%; /* 33px */
+}
+
+@media (max-width: 576px) {
+    /* body {
+        background-color: lightblue;
+    } */
+
+    .hero {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        background-image: linear-gradient(
+                to right,
+                rgba(0, 0, 0, 0.6) 100%,
+                transparent 10%
+            ),
+            url("./images/hero.jpg");
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        /* border: solid 1px white; */
+    }
+
+    .hero-left {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .hero-search {
+        width: 100%;
+        /* padding: 20px; */
+    }
+
+    .parent {
+        display: flex;
+        flex-direction: column;
+
+        grid-row-gap: 10px;
+        /* border: solid 1px red; */
+    }
+
+    .item1 {
+        order: 2;
+        /* background-color: red; */
+    }
+    .item2 {
+        order: 1;
+        /* background-color: blue; */
+    }
+    .item3 {
+        order: 3;
+        /* background-color: green; */
+        /* border: solid 1px red; */
+    }
+    .item4 {
+        order: 4;
+        /* background-color: yellow; */
+    }
+
+    .resources {
+        display: flex;
+        flex-direction: column;
+        background-color: #fafafa;
+    }
 }
