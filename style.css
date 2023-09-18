@@ -202,18 +202,70 @@ p {
   color: #6f6f6f;
 }
 
+footer {
+  height: 80px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.footer-items {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 20px;
+}
+
+.btn {
+  border: 2px solid #638a5c;
+  background: #638a5c;
+  color: #fff;
+  margin-top: 8px;
+}
+
 .resources {
   display: flex;
+  background-color: #fafafa;
 }
 
 .resources-box {
   flex: 1;
-  border: 1px solid #000; /* Adding border to visualize the boxes */
-  box-sizing: border-box; /* To include border and padding in the element's total width and height */
-  padding: 60px; /* Adding some padding */
+  padding: 50px 35px;
 }
 
-footer {
-  height: 60px;
-  background-color: black;
+.resources-copy {
+  color: #6f6f6f;
+}
+
+.resources-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resources-img {
+  width: 30px;
+  height: 35px;
+  margin-bottom: 10px;
+}
+
+.resources-title {
+  color: #4e4e4e;
+  text-align: center;
+  font-family: Inter;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 36px */
+  margin-bottom: 8px;
+}
+
+.resources-copy {
+  text-align: center;
+  font-family: Inter;
+  font-size: 0.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 33px */
 }
