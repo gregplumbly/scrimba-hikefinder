@@ -11,17 +11,26 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/dc9fe4043d.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="page-container">
       <header>
-        <img src="images/logo.png" alt="logo" class="logo" />
-        <div class="nav">
-          <!-- <p class="nav-item">HOME</p> -->
-          <p class="nav-item">EXPLORE</p>
-          <!-- <p class="nav-item">SIGN UP</p>
-          <p class="nav-item">LOGIN</p> -->
-        </div>
+        <nav>
+          <img src="images/logo.png" alt="logo" class="logo" />
+          <button class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+          </button>
+          <ul class="nav-ul" id="nav-ul">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">EXPLORE</a></li>
+            <li><a href="#">SIGN UP</a></li>
+            <li><a href="#">LOGIN</a></li>
+          </ul>
+        </nav>
       </header>
 
       <div class="hero">
@@ -129,5 +138,6 @@
         </div>
       </footer>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
