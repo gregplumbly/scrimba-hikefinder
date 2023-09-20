@@ -360,7 +360,6 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   width: 44%;
-  /* border: solid 1px blue; */
 }
 
 .map {
@@ -378,9 +377,9 @@ main {
   padding: 20px;
 }
 
-.explore-main {
+/* .explore-main {
   border: solid 1px red;
-}
+} */
 
 /*  Mobile */
 @media (max-width: 576px) {
@@ -461,7 +460,7 @@ main {
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    border: solid 1px blue;
+    /* border: solid 1px blue; */
   }
 
   .detail-image {
