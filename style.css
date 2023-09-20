@@ -182,6 +182,7 @@ h2 {
 
 h4 {
   font-family: Inter;
+  font-size: 1rem;
   font-weight: 700;
   margin-bottom: 4px;
 }
@@ -383,8 +384,7 @@ footer {
   font-family: Inter;
   font-size: 0.8rem;
   font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+  font-weight: 400;
   margin-bottom: 20px;
 }
 
@@ -578,4 +578,9 @@ a:visited {
   font-weight: 400;
   line-height: normal;
   padding: 6px 20px;
+}
+
+.star {
+  width: 17px;
+  height: 14px;
 }
