@@ -176,6 +176,12 @@ h2 {
   line-height: 116.523%; /* 79.235px */
 }
 
+h4 {
+  font-family: Inter;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
 main {
   padding: 20px;
 }
@@ -316,15 +322,23 @@ footer {
 }
 
 .location-item {
-  border-bottom: #565656 1px solid;
-  padding: 20px;
+  border-bottom: #c9c4c4 1px solid;
+  padding: 20px 0px;
   flex: 1;
+  position: relative;
+}
+
+.detail-image {
+  position: absolute;
+  top: 20px;
+  right: 0px;
+  width: 70px;
 }
 
 .location-summary {
   color: #6f6f6f;
   font-family: Inter;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
@@ -334,22 +348,23 @@ footer {
 .location-sub {
   color: #000;
   font-family: Inter;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-bottom: 20px;
 }
 
 .locations-list {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 38%;
-  border: solid 1px blue;
+  width: 44%;
+  /* border: solid 1px blue; */
 }
 
 .map {
-  width: 60%;
+  width: 54%;
   height: 100%;
 }
 
