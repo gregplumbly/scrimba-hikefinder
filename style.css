@@ -205,7 +205,18 @@ p {
   width: 100%;
   /* border: #fff 1px solid; */
   display: flex;
-  padding: 0 20px;
+  margin: 0 20px;
+  align-items: stretch;
+  /* height: 100px; */
+  border: solid 1px #638a5c;
+  background-color: #fff;
+}
+
+.search-icon {
+  background-color: #fff;
+  height: 100%;
+  align-self: center;
+  padding: 4px;
 }
 
 .search-input {
