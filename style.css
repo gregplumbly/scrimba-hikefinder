@@ -23,11 +23,12 @@ body {
 /* Variables */
 :root {
   --primary-color: #638a5c;
+  --inter-font: "Inter", sans-serif;
 }
 
 .page-container {
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 960px;
   background-color: white;
 }
 a {
@@ -75,7 +76,7 @@ nav {
   margin-left: auto;
   gap: 10px;
   list-style-type: none;
-  font-family: Inter;
+  font-family: var(--inter-font);
   font-size: 0.8rem;
 }
 
@@ -93,7 +94,7 @@ nav {
   background: var(--primary-color);
   border: none;
   color: #fff;
-  font-family: Inter;
+  font-family: var(--inter-font);
   font-size: 0.8rem;
   font-weight: 400;
   line-height: normal;
@@ -105,7 +106,7 @@ nav {
   background: #fff;
   border: 1px solid var(--primary-color);
   color: #000;
-  font-family: Inter;
+  font-family: var(--inter-font);
   font-size: 0.8rem;
   font-weight: 400;
   line-height: normal;
@@ -217,7 +218,7 @@ h2 {
   font-family: "Inter", sans-serif;
   color: white;
   color: #fff;
-  font-family: Inter;
+  font-family: var(--inter-font);
   font-size: 1.8rem;
   font-style: normal;
   font-weight: 400;
@@ -225,7 +226,7 @@ h2 {
 }
 
 h4 {
-  font-family: Inter;
+  font-family: var(--inter-font);
   font-size: 1rem;
   font-weight: 700;
   margin-bottom: 4px;
@@ -239,7 +240,7 @@ p {
   font-family: "Inter", sans-serif;
   color: white;
   color: #fff;
-  font-family: Inter;
+  font-family: var(--inter-font);
   font-style: normal;
   font-weight: 500;
   font-size: 0.8rem;
@@ -330,7 +331,7 @@ p {
 .resources-title {
   color: #4e4e4e;
   text-align: center;
-  font-family: Inter;
+  font-family: var(--inter-font);
   font-size: 0.8rem;
   font-style: normal;
   font-weight: 700;
@@ -340,7 +341,7 @@ p {
 
 .resources-copy {
   text-align: center;
-  font-family: Inter;
+  font-family: var(--inter-font);
   font-size: 0.6rem;
   font-style: normal;
   font-weight: 600;
@@ -365,7 +366,7 @@ footer {
 
 .footer-item {
   color: #fff;
-  font-family: Inter;
+  font-family: var(--inter-font);
   font-size: 0.8rem;
   font-style: normal;
   font-weight: 400;
@@ -374,7 +375,7 @@ footer {
 
 .copyright {
   color: #a5a5a5;
-  font-family: Inter;
+  font-family: var(--inter-font);
   font-size: 0.5rem;
   font-style: normal;
   font-weight: 500;
@@ -419,7 +420,7 @@ a.promo {
 
 .location-summary {
   color: #6f6f6f;
-  font-family: Inter;
+  font-family: var(--inter-font);
   font-size: 0.8rem;
   font-style: normal;
   font-weight: 400;
@@ -434,7 +435,7 @@ a.promo {
 
 .location-sub {
   color: #000;
-  font-family: Inter;
+  font-family: var(--inter-font);
   font-size: 0.8rem;
   font-style: normal;
   font-weight: 400;
@@ -584,7 +585,7 @@ main {
 
   .footer-item {
     color: #fff;
-    font-family: Inter;
+    font-family: var(--inter-font);
     font-size: 0.6rem;
     font-style: normal;
     font-weight: 400;
