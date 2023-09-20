@@ -53,15 +53,19 @@ nav {
   display: flex;
   align-items: center;
   margin-left: auto;
-  gap: 20px;
-  color: #000000;
+  gap: 10px;
   list-style-type: none;
   font-family: Inter;
+  font-size: 0.8rem;
 }
 
 .nav-ul li a {
   display: inline-block;
   text-decoration: none;
+}
+
+.selected {
+  color: #638a5c;
 }
 
 .hamburger {
@@ -480,4 +484,45 @@ main {
     right: auto; /* Adjust as necessary */
     width: 100%;
   }
+}
+
+a {
+  text-decoration: none; /* Removes underline */
+  color: inherit; /* Makes link color inherit from its parent element */
+  cursor: pointer; /* Ensures a pointer cursor appears on hover */
+  background-color: transparent; /* Ensures no background color */
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline; /* Adds underline on hover and focus for better accessibility */
+  color: inherit; /* Keeps the color inherited on hover and focus */
+}
+
+a:visited {
+  color: inherit; /* Keeps the color inherited for visited links */
+}
+
+.sign-up {
+  border-radius: 2px;
+  background: #638a5c;
+  border: none;
+  color: #fff;
+  font-family: Inter;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: normal;
+  padding: 6px 20px;
+}
+
+.login {
+  border-radius: 2px;
+  background: #fff;
+  border: 1px solid #638a5c;
+  color: #000;
+  font-family: Inter;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: normal;
+  padding: 6px 20px;
 }
